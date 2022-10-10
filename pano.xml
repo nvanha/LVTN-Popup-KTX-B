@@ -17,7 +17,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label bordercolor="0x000000" height="20" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" background="1" borderalpha="1" textalpha="1" wordwrap="1" backgroundalpha="1" borderradius="1" width="180" border="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
-      <polyhotspot url="" target="_blank" title="" description="&lt;h2 style='margin: 0px'>ĐẠI HỌC CẦN THƠ&lt;/h2>&#xa;&lt;p style='margin: 0px; border-bottom: 1px solid #fff; height: 1px'>&lt;p>&#xa;&lt;h1 style='margin: 0px'>Ký túc xá khu B&lt;/h1>&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/details.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; />&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/ctu.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; />" id="Poly01">
+      <polyhotspot url="" target="_blank" title="" description="&lt;h2 style='margin: 0px'>ĐẠI HỌC CẦN THƠ&lt;/h2>&#xa;&lt;p style='margin: 0px; border-bottom: 1px solid #fff; height: 1px'>&lt;p>&#xa;&lt;h1 style='margin: 0px'>Ký túc xá khu B&lt;/h1>&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/details.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; />&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/ctu.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; style='margin-top: 5px' />" id="Poly01">
         <polystring>-311.94/4.34|-311.94/-2.41|-332.76/-2.76|-332.76/5.02</polystring>
       </polyhotspot>
     </hotspots>
