@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.15/18116
 // Filename: skin.ggsk
-// Generated 2022-10-11T14:11:23
+// Generated 2022-10-11T15:12:26
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_website', 2, false);
@@ -1472,11 +1472,11 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='bottom : 20px;';
 		hs+='cursor : pointer;';
-		hs+='height : 32px;';
+		hs+='height : 50px;';
 		hs+='position : absolute;';
 		hs+='right : 20px;';
 		hs+='visibility : inherit;';
-		hs+='width : 32px;';
+		hs+='width : 50px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -1571,7 +1571,7 @@ function pano2vrSkin(player,base) {
 		me._popup_video_youtube.ggVideoSource = '';
 		me._popup_video_youtube.ggVideoNotLoaded = true;
 		me._map_1.ggMarkerInstances=[];
-		me._map_1.ggMapId = 'googlesatellite';
+		me._map_1.ggMapId = 'googlehybrid';
 		me._map_1.ggLastNodeId=null;
 		me._map_1.ggMarkerArray=[];
 		me._map_1.ggGoogleMarkerArray=[];
@@ -1603,7 +1603,7 @@ function pano2vrSkin(player,base) {
 				radar.lastPan=pan;radar.lastFov=fov;radar.lastZoom=zoom;
 				radar.activeNodeLatLng = new google.maps.LatLng(gps[0], gps[1]);
 				var tileDeg = 360.0 / Math.pow(2, zoom);
-				var rLng = tileDeg * 0.976563;
+				var rLng = tileDeg * 0.390625;
 				var rLat = rLng * Math.cos(radar.activeNodeLatLng.lat() * d2r);
 				var radar_path = [];
 				radar_path.push(radar.activeNodeLatLng);
@@ -1691,8 +1691,8 @@ function pano2vrSkin(player,base) {
 				} else {
 					mapTypeId = mapDetails['mapprovider'];
 				}
-				if (me._map_1.ggLastZoom == -1) me._map_1.ggLastZoom = 14;
-				var initZoom = keepZoom ? me._map_1.ggLastZoom : 14;
+				if (me._map_1.ggLastZoom == -1) me._map_1.ggLastZoom = 18;
+				var initZoom = keepZoom ? me._map_1.ggLastZoom : 18;
 				var mapOptions = {
 					zoom: initZoom,
 					center: activeNodeLatLng,
@@ -1828,13 +1828,29 @@ function pano2vrSkin(player,base) {
 			if (me._map_1.ggMapNotLoaded) return;
 			if (!me._map_1.ggMarkerBounds.isEmpty()) {
 				if (me._map_1.ggMarkerInstances.length > 1 || Object.getOwnPropertyNames(me._map_1.ggGoogleMarkerArray).length > 1) {
+					if (force) {
 					me._map_1.ggMap.fitBounds(me._map_1.ggMarkerBounds, 30);
+					} else {
+						if (player.getMapType(me._map_1.ggMapId) == 'web') {
+							me._map_1.ggMap.setZoom(18);
+						} else {
+							me._map_1.ggMap.setZoom(7 + 18);
+						}
+					}
 				} else {
 					me._map_1.ggMap.setCenter(me._map_1.ggMarkerBounds.getCenter());
 					if (player.getMapType(me._map_1.ggMapId) == 'web') {
+						if (force) {
 						me._map_1.ggMap.setZoom(18);
+						} else {
+							me._map_1.ggMap.setZoom(18);
+						}
 					} else {
+						if (force) {
 						me._map_1.ggMap.setZoom(7);
+						} else {
+							me._map_1.ggMap.setZoom(7 + 18);
+						}
 					}
 				}
 			}
