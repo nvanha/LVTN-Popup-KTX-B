@@ -1,56 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18116" appversion="6.1.15" start="node1">
+<tour apprev="18116" start="node1" appversion="6.1.15">
   <panorama id="node1">
-    <input height="1228" overlap="1" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" width="1228">
-      <level height="1228" preload="0" predecode="0" width="1228"/>
-      <level height="614" preload="0" predecode="0" width="614"/>
-      <level height="307" preload="1" predecode="1" width="307"/>
-      <preview color="0x808080" strip="1"/>
+    <input overlap="1" levelingpitch="0" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" width="1228" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1228">
+      <level preload="0" predecode="0" width="1228" height="1228"/>
+      <level preload="0" predecode="0" width="614" height="614"/>
+      <level preload="1" predecode="1" width="307" height="307"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="70" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="-150" tilt="-32.7408"/>
-      <max fov="120" fovfisheye="360" pan="150" fovstereographic="270" tilt="32.7408"/>
+    <view fovmode="0" pannorth="-47">
+      <start tilt="0" fov="70" pan="0" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+      <min tilt="-32.7408" fovpixel="2" pan="-150"/>
+      <max tilt="32.7408" fovstereographic="270" fov="120" pan="150" fovfisheye="360"/>
     </view>
-    <userdata heading="0" source="" info="" datetime="" comment="" latitude="" customnodeid="" author="" copyright="" title="" tags="LVTN-Popup-KTX-B" description="" longitude="" nodeid="node1"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label bordercolor="0x000000" height="20" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" background="1" borderalpha="1" textalpha="1" wordwrap="1" backgroundalpha="1" borderradius="1" width="180" border="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
-      <polyhotspot url="" target="_blank" title="" description="&lt;h2 style='margin: 0px'>ĐẠI HỌC CẦN THƠ&lt;/h2>&#xa;&lt;p style='margin: 0px; border-bottom: 1px solid #fff; height: 1px'>&lt;p>&#xa;&lt;h1 style='margin: 0px'>Ký túc xá khu B&lt;/h1>&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/details.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; />&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/ctu.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; style='margin-top: 5px' />" id="Poly01">
+    <userdata tags="LVTN-Popup-KTX-B" datetime="" source="" info="" longitude="105.76447964" author="" copyright="" comment="" title="" customnodeid="" latitude="10.02977866" description="" nodeid="node1" heading="-47"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1" width="180" borderradius="1" border="1" height="20" background="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" handcursor="1" mode="0"/>
+      <polyhotspot id="Poly01" url="" title="" description="&lt;h2 style='margin: 0px'>ĐẠI HỌC CẦN THƠ&lt;/h2>&#xa;&lt;p style='margin: 0px; border-bottom: 1px solid #fff; height: 1px'>&lt;p>&#xa;&lt;h1 style='margin: 0px'>Ký túc xá khu B&lt;/h1>&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/details.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; />&#xa;&lt;img src=&quot;https://nvanha.github.io/LVTN-Popup-KTX-B/assets/ctu.png&quot; alt=&quot;nvh&quot; width=&quot;460px&quot; style='margin-top: 5px' />" target="_blank">
         <polystring>-311.94/4.34|-311.94/-2.41|-332.76/-2.76|-332.76/5.02</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" zoomafterinfov="90" softedge="0" zoomoutpause="1" zoomfov="20" type="crossdissolve" zoomout="0" blendcolor="0x000000" blendtime="1"/>
+    <transition type="crossdissolve" zoomout="0" zoomoutpause="1" enabled="1" zoomafterinfov="90" zoomafteroutfov="20" zoomspeed="2" zoomin="0" blendcolor="0x000000" softedge="0" zoomfov="20" blendtime="1"/>
     <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" sensitivity="8" contextfullscreen="1" lockedmouse="0" contextprojections="0" lockedkeyboard="0" rubberband="0" hideabout="0" contextvr="1" invertwheel="0" simulatemass="1" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node2">
-    <input height="3591" overlap="1" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelbiashidpi="1.000" levelingpitch="0" levelbias="0.400" width="3591">
-      <level height="3591" preload="0" predecode="0" width="3591"/>
-      <level height="1795" preload="0" predecode="0" width="1795"/>
-      <level height="897" preload="0" predecode="0" width="897"/>
-      <level height="448" preload="1" predecode="1" width="448"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="0" fovmode="0">
-      <start fov="70" pan="0" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="-90" tilt="-21.0944"/>
-      <max fov="120" fovfisheye="360" pan="90" fovstereographic="270" tilt="21.0944"/>
-    </view>
-    <userdata heading="0" source="" info="" datetime="" comment="" latitude="" customnodeid="" author="" copyright="" title="" tags="Downloads" description="" longitude="" nodeid="node2"/>
-    <hotspots height="20" wordwrap="1" width="180">
-      <label bordercolor="0x000000" height="20" textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" background="1" borderalpha="1" textalpha="1" wordwrap="1" backgroundalpha="1" borderradius="1" width="180" border="1"/>
-      <polystyle bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1" backgroundalpha="0.25098"/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" enabled="1" zoomspeed="2" zoomafteroutfov="20" zoomafterinfov="90" softedge="0" zoomoutpause="1" zoomfov="20" type="crossdissolve" zoomout="0" blendcolor="0x000000" blendtime="1"/>
-    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedwheel="0" speedwheel="1" invertcontrol="1" lockedkeyboardzoom="0" sensitivity="8" contextfullscreen="1" lockedmouse="0" contextprojections="0" lockedkeyboard="0" rubberband="0" hideabout="0" contextvr="1" invertwheel="0" simulatemass="1" dblclickfullscreen="0"/>
+    <control contextfullscreen="1" lockedmouse="0" speedwheel="1" dblclickfullscreen="0" lockedkeyboard="0" contextprojections="0" hideabout="0" rubberband="0" invertwheel="0" invertcontrol="1" contextvr="1" sensitivity="8" lockedkeyboardzoom="0" simulatemass="1" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata heading="0" source="" info="" datetime="" comment="" latitude="" customnodeid="" author="" copyright="" title="" tags="" description="" longitude="" nodeid="master"/>
+    <userdata tags="" datetime="" source="" info="" longitude="" author="" copyright="" comment="" title="" customnodeid="" latitude="" description="" nodeid="master" heading="0"/>
   </masternode>
 </tour>
